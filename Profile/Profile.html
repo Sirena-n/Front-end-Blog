@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Prof-style.css">
+</head>
+<body>
+<div class="left_side">
+    <div class="wrapper">
+        <div class="profile">
+            <img src="../image/original.jpg" alt="">
+        </div>
+        <div class="text_wrapper">
+            <h3>Иванова Ульяна</h3>
+            <p class="profile_bottom">блог front-end разработчика</p>
+            <div class="social_network">
+                <img style="cursor: pointer;" src="../image/instagram%20(1)%201.svg" alt="">
+                <img style="cursor: pointer;" src="../image/Group.png" alt="">
+                <img style="cursor: pointer;" src="../image/pinterest.png" alt="">
+            </div>
+            <div class="line"></div>
+            <p class="left_info">Front-end разработчик. Практик верстки сайтов.
+
+                Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработала более 10 000
+                часов в создании сайтов различной сложности.
+            </p>
+            <div class="line"></div>
+            <div class="buttons">
+                <button class="works_btn"><a href="../my%20works/my%20works.html">Мои работы</a></button>
+                <button class="open_popup" id="open-popup">Написать мне</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="right_side">
+    <header>
+        <div class="header_top">
+            <ul class="left_header">
+                <li><a href="../index.html">Главная</a></li>
+                <li class="articles" id="articles">
+                    <span class="articles-btn" id="articles-btn">Статьи <img class="down_arrow" src="../image/Polygon%202.png" alt=""></span>
+                    <span id="articles-bar" class="articles-bar">
+                        <span id="close-articles" class="close2">&#10006;</span>
+                        <span class="link">
+                            <a href="../Create%20web%20sites/Create%20web.html">Создание сайтов</a>
+                            <a href="../int_marketing/int-marketing.html">Интернет-маркетинг</a>
+                            <a href="../Video/Video.html">Продвижение видео</a>
+                        </span>
+                    </span>
+                </li>
+                <li><a href="../about%20me/About.me.html">Обо мне</a></li>
+                <li><a href="../Plus/Plus.html">Плюсы</a></li>
+            </ul>
+
+            <form action="" class="form">
+                <ul>
+                    <li class="profile_li"><a href="../Profile/Profile.html">Профиль</a></li>
+                </ul>
+                <label>
+                    <input class="search" placeholder="Поиск по блогу" type="search">
+                </label>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1 class="page-name">Профиль</h1>
+            <section class="section">
+                <form class="form2" action="https://formsubmit.co/your@email.com">
+                    <label>
+                        <input name="name" required placeholder="Ваше имя" type="text">
+                    </label>
+                    <label>
+                        <input name="email" required placeholder="Ваша почта" type="email">
+                    </label>
+                    <label>
+                        <input name="password" required placeholder="Новый пароль" type="password">
+                    </label>
+                    <label>
+                        <input name="confirm password" required placeholder="Подтвердите пароль" type="password">
+                    </label>
+                    <button class="btn1">Сохранить</button>
+                </form>
+                <div class="avatar">
+                    <img style="width: 190px; height: 190px;" src="../image/avatar-face.jpg" alt="">
+                    <a class="choose-avatar" href="">выбрать аватар</a>
+                </div>
+            </section>
+            <div id="Popup" class="Popup ">
+                <div class="container">
+                    <form class="form_comments" action="">
+                        <span id="close-popup" class="close">&#10006;</span>
+                        <label>
+                            <input required placeholder="Имя" type="text">
+                        </label>
+                        <label>
+                            <input required placeholder="Ваш e-mail" type="email">
+                        </label>
+                        <label>
+                            <input required placeholder="Текст сообщения" type="text">
+                        </label>
+                        <button class="btn2">Отправить</button>
+                        <div class="comments_btm">
+                            <p>e-mail:  <a href="">info@mywebsite.ru</a></p>
+                            <p>тел: <a href="tel:+943-232-856-22">+943-232-856-22</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="Prof.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="About.me.css">
+</head>
+<body>
+<div class="left_side">
+    <div class="wrapper">
+        <div class="profile">
+            <img src="../image/original.jpg" alt="">
+        </div>
+        <div class="text_wrapper">
+            <h3>Иванова Ульяна</h3>
+            <p class="profile_bottom">блог front-end разработчика</p>
+            <div class="social_network">
+                <img style="cursor: pointer;" src="../image/instagram%20(1)%201.svg" alt="">
+                <img style="cursor: pointer;" src="../image/Group.png" alt="">
+                <img style="cursor: pointer;" src="../image/pinterest.png" alt="">
+<!--                <iframe class="map"-->
+<!--                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.7087150955826!2d74.59343961539975!3d42.87899187915545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb73ef59391dd%3A0xd9a25f1216632551!2zSVQtUlVOIC0g0LDQutCw0LTQtdC80LjRjyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjyDQvNC10LbQtNGD0L3QsNGA0L7QtNC90L7Qs9C-INGB0YLQsNC90LTQsNGA0YLQsA!5e0!3m2!1sru!2skg!4v1670090942610!5m2!1sru!2skg"-->
+<!--                        width="25" height="25" style="border:0;" allowfullscreen="" loading="lazy"-->
+<!--                        referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+            </div>
+            <div class="line"></div>
+            <p class="left_info">Front-end разработчик. Практик верстки сайтов.
+
+                Созданием сайтов занимаюсь с 2012 года. Работала в нескольких ИТ компаниях и наработала более 10 000
+                часов в создании сайтов различной сложности.
+            </p>
+            <div class="line"></div>
+            <div class="buttons">
+                <button class="works_btn"><a href="../my%20works/my%20works.html">Мои работы</a></button>
+                <button class="open_popup" id="open-popup">Написать мне</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="right_side">
+    <header>
+        <div class="header_top">
+            <ul class="left_header">
+                <li><a href="../index.html">Главная</a></li>
+                <li class="articles" id="articles">
+                    <span class="articles-btn" id="articles-btn">Статьи <img class="down_arrow"
+                                                                             src="../image/Polygon%202.png"
+                                                                             alt=""></span>
+                    <span id="articles-bar" class="articles-bar">
+                        <span id="close-articles" class="close2">&#10006;</span>
+                        <span class="link">
+                            <a href="../Create%20web%20sites/Create%20web.html">Создание сайтов</a>
+                            <a href="../int_marketing/int-marketing.html">Интернет-маркетинг</a>
+                            <a href="../Video/Video.html">Продвижение видео</a>
+                        </span>
+                    </span>
+                </li>
+                <li><a href="../about%20me/About.me.html">Обо мне</a></li>
+                <li><a href="../Plus/Plus.html">Плюсы</a></li>
+            </ul>
+
+            <form action="" class="form">
+                <ul>
+                    <li class="profile_li"><a href="../Profile/Profile.html">Профиль</a></li>
+                </ul>
+                <label>
+                    <input class="search" placeholder="Поиск по блогу" type="search">
+                </label>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="sec1">
+            <div id="Popup" class="Popup ">
+                <div class="container">
+                    <form class="form_comments" action="https://formsubmit.co/old.man.bayastan@gmail.com" method="post">
+                        <span id="close-popup" class="close">&#10006;</span>
+                        <label>
+                            <input name="name" required placeholder="Имя" type="text">
+                        </label>
+                        <label>
+                            <input name="email" required placeholder="Ваш e-mail" type="email">
+                        </label>
+                        <label>
+                            <input name="text" required placeholder="Текст сообщения" type="text">
+                        </label>
+                        <button class="btn2">Отправить</button>
+                        <div class="comments_btm">
+                            <p>e-mail: <a href="">info@mywebsite.ru</a></p>
+                            <p>тел: <a href="tel:+943-232-856-22">+943-232-856-22</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="about_me_block1">
+                <div class="container">
+                    <div class="about_me_wrapper">
+                        <h2 class="name_block">Как я пришла во Front-end</h2>
+                        <p>Сентябрь, 2011 год. Я пятый год подряд собираюсь в свой университет, который к этому времени
+                            сидел у меня уже в печенках, но я почему-то продолжала посещать еще неделю за неделей
+                            <br> <br>На одном из практических занятий преподаватель, которому на вид было уже порядка
+                            70-ти
+                            лет, высылает нам по почте методику, с названием HTML5. На тот момент, я знала, что это язык
+                            разметки, что он содержит в себе какие-то основным теги, но что именно это и с чем его едят
+                            понятия никакого не имела. Нам рассказали про структуру, про то что есть каскадная таблица
+                            стилей, что есть еще JavaScript (кстати, на тот момент, я не знала, в чем разница между JS и
+                            Java, и потому для меня это было одно и то же).
+                            <br><br>Забегая немного вперед, хочу сказать, что на тот момент передо мной стоял вопрос
+                            поиска
+                            работы, но проблема была по большему счету не в том, что найти ее, а чтобы понять кем я
+                            хочу. На
+                            тот момент я четко осознавала, что мне не пойдут гуманитарные работы (к слову говоря,
+                            училась я
+                            на Информационной безопасности), т.к. я ненавидела гуманитарные предметы, начиная класса с
+                            5.
+                            Мне хотелось иметь дело с математикой, так как ее я любила все сердцем, и даже подрабатывала
+                            репетитором у школьников. Я вроде как хотела быть программистом, но в университете я
+                            получила
+                            только знания по C++, но этот язык меня совсем не зацепил.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="about_me_block2">
+                <div class="container">
+                    <div class="about_me_wrapper">
+                        <h2 class="name_block">Моя первая работа на Angular</h2>
+                        <p>В тот день, когда мне доверили работу с проектом на ангуляре, я работала в своей компании
+                            порядка 2-3 месяцев. Мои знания в JS были настолько поверхностными, что о ES6 я знала только
+                            то, что он есть. Мне было комфортно делать все через jQuery, а потому я особо не видела
+                            надобности в том, чтобы изучать что-то ещё.
+                            <br><br> Но в ту пятницу все изменилось. <br> <br>
+
+                            На тот момент наш "тимлид" фронта уходил в отпуск и кто-то должен был поддерживать проект,
+                            пока его не будет. Мне надоело к тому моменту делать разметку очередной странице и я решила
+                            проявить инициативу (наш другой разработчик категорически отказался иметь хоть что-то общее
+                            с ангуляром).
+                            <br> <br>Пятница была единственным днём, когда мой коллега мог посвятить меня в магию
+                            фреймворка, он просто сказал: «вот компонент, вот ещё компонент, ну В ОБЩЕМ, все понятно». Я
+                            кивнула, но мне было непонятно совсем.
+                            <br> <br>В понедельник мне уже начали поступать задачи. С учетом того, что Angular ипользует
+                            TypeScript править для меня было что-то еще сложнее. Я не понимала, как передаются данные
+                            между компонентами, как это все можно отдебажить. Я не знала, какой надо использовать
+                            codestyle и как вообще писать так, чтобы потом у кого не вылезли глаза от того, что он
+                            увидел в моей коде. (p.s. если бы я сейчас увидела то, что я там писала, у меня бы точно
+                            вылезли). В общем, я портила общую картину того, что я там увидела как могла и никто,
+                            повторяю, никто не мог меня остановить!
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+
+<script src="About.me.js"></script>
+</body>
+</html>
